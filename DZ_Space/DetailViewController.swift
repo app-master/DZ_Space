@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  DZ_Space
 //
 //  Created by user on 09/04/2019.
@@ -9,13 +9,13 @@
 import UIKit
 import SceneKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     @IBOutlet weak var scnView: SCNView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.darkGray
+        view.backgroundColor = UIColor(red: 0.141, green: 0.141, blue: 0.141, alpha: 1.00)
         // create a new scene
         //let scene = SCNScene(named: "art.scnassets/sphere.scn")!
         let scene = SCNScene()
@@ -70,6 +70,9 @@ class ViewController: UIViewController {
         
         // configure the view
         scnView.backgroundColor = UIColor.black
+
+        //scnView.scene?.background.contents = UIImage(named: "earth.jpg")
+
         
         // add a tap gesture recognizer
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
@@ -79,7 +82,7 @@ class ViewController: UIViewController {
     @objc
     func handleTap(_ gestureRecognize: UIGestureRecognizer) {
         // retrieve the SCNView
-        let scnView = self.view as! SCNView
+        //let scnView = self.view as! SCNView
         
         // check what nodes are tapped
         let p = gestureRecognize.location(in: scnView)
@@ -101,12 +104,12 @@ class ViewController: UIViewController {
                 SCNTransaction.begin()
                 SCNTransaction.animationDuration = 0.5
                 
-                //material.emission.contents = UIColor.black
+                material.emission.contents = UIColor.black
                 
                 SCNTransaction.commit()
             }
             
-            //material.emission.contents = UIColor.red
+            material.emission.contents = UIColor.red
             
             SCNTransaction.commit()
         }
