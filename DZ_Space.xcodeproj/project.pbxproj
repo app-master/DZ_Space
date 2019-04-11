@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE310882225E995C00BBD35F /* PlanetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE310881225E995C00BBD35F /* PlanetNode.swift */; };
+		CE31088A225F3C0900BBD35F /* jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310883225F3C0900BBD35F /* jupiter.jpg */; };
+		CE31088B225F3C0900BBD35F /* mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310884225F3C0900BBD35F /* mercury.jpg */; };
+		CE31088C225F3C0900BBD35F /* uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310885225F3C0900BBD35F /* uranus.jpg */; };
+		CE31088D225F3C0900BBD35F /* saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310886225F3C0900BBD35F /* saturn.jpg */; };
+		CE31088E225F3C0900BBD35F /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310887225F3C0900BBD35F /* mars.jpg */; };
+		CE31088F225F3C0900BBD35F /* neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310888225F3C0900BBD35F /* neptune.jpg */; };
+		CE310890225F3C0900BBD35F /* venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE310889225F3C0900BBD35F /* venus.jpg */; };
 		CE62F00A225D2FA300ED71D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62F009225D2FA300ED71D0 /* AppDelegate.swift */; };
 		CE62F00C225D2FA300ED71D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62F00B225D2FA300ED71D0 /* DetailViewController.swift */; };
 		CE62F00F225D2FA300ED71D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62F00D225D2FA300ED71D0 /* Main.storyboard */; };
 		CE62F011225D2FA400ED71D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62F010225D2FA400ED71D0 /* Assets.xcassets */; };
 		CE62F014225D2FA400ED71D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62F012225D2FA400ED71D0 /* LaunchScreen.storyboard */; };
-		CE62F01C225D374800ED71D0 /* Sphere.scn in Resources */ = {isa = PBXBuildFile; fileRef = CE62F01B225D374800ED71D0 /* Sphere.scn */; };
 		CE62F03E225D498400ED71D0 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE62F03D225D498400ED71D0 /* earth.jpg */; };
 		CE62F045225E671700ED71D0 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62F044225E671700ED71D0 /* Planet.swift */; };
 		CEF49A7A225E730C009DE9C4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF49A79225E730C009DE9C4 /* ListViewController.swift */; };
@@ -21,17 +28,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE310881225E995C00BBD35F /* PlanetNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNode.swift; sourceTree = "<group>"; };
+		CE310883225F3C0900BBD35F /* jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpg; sourceTree = "<group>"; };
+		CE310884225F3C0900BBD35F /* mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercury.jpg; sourceTree = "<group>"; };
+		CE310885225F3C0900BBD35F /* uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus.jpg; sourceTree = "<group>"; };
+		CE310886225F3C0900BBD35F /* saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturn.jpg; sourceTree = "<group>"; };
+		CE310887225F3C0900BBD35F /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		CE310888225F3C0900BBD35F /* neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neptune.jpg; sourceTree = "<group>"; };
+		CE310889225F3C0900BBD35F /* venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venus.jpg; sourceTree = "<group>"; };
 		CE62F006225D2FA300ED71D0 /* DZ_Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ_Space.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62F009225D2FA300ED71D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE62F00B225D2FA300ED71D0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE62F00B225D2FA300ED71D0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		CE62F00E225D2FA300ED71D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE62F010225D2FA400ED71D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE62F010225D2FA400ED71D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		CE62F013225D2FA400ED71D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE62F015225D2FA400ED71D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE62F01B225D374800ED71D0 /* Sphere.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Sphere.scn; sourceTree = "<group>"; };
 		CE62F03D225D498400ED71D0 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 		CE62F044225E671700ED71D0 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
-		CEF49A79225E730C009DE9C4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CEF49A79225E730C009DE9C4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
 		CEF49A7B225E745F009DE9C4 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
 		CEF49A7D225E766A009DE9C4 /* PlanetSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSCNView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE318922225F660300F2ABA2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE62F00D225D2FA300ED71D0 /* Main.storyboard */,
+				CE62F012225D2FA400ED71D0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		CE62EFFD225D2FA300ED71D0 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +89,11 @@
 		CE62F008225D2FA300ED71D0 /* DZ_Space */ = {
 			isa = PBXGroup;
 			children = (
-				CE62F009225D2FA300ED71D0 /* AppDelegate.swift */,
-				CEF49A79225E730C009DE9C4 /* ListViewController.swift */,
-				CE62F00B225D2FA300ED71D0 /* DetailViewController.swift */,
-				CE62F044225E671700ED71D0 /* Planet.swift */,
-				CEF49A7B225E745F009DE9C4 /* PlanetCell.swift */,
-				CEF49A7D225E766A009DE9C4 /* PlanetSCNView.swift */,
+				CE82F5CF225F62AE007650BB /* Models */,
+				CE82F5D0225F62CA007650BB /* View */,
+				CE8EE115225F622D00B3C77E /* ViewControllers */,
 				CE62F043225E66A700ED71D0 /* Textures */,
-				CE62F00D225D2FA300ED71D0 /* Main.storyboard */,
-				CE62F010225D2FA400ED71D0 /* Assets.xcassets */,
-				CE62F01B225D374800ED71D0 /* Sphere.scn */,
-				CE62F012225D2FA400ED71D0 /* LaunchScreen.storyboard */,
-				CE62F015225D2FA400ED71D0 /* Info.plist */,
+				CE82F5D2225F656B007650BB /* Supporting Files */,
 			);
 			path = DZ_Space;
 			sourceTree = "<group>";
@@ -86,8 +102,61 @@
 			isa = PBXGroup;
 			children = (
 				CE62F03D225D498400ED71D0 /* earth.jpg */,
+				CE310883225F3C0900BBD35F /* jupiter.jpg */,
+				CE310887225F3C0900BBD35F /* mars.jpg */,
+				CE310884225F3C0900BBD35F /* mercury.jpg */,
+				CE310888225F3C0900BBD35F /* neptune.jpg */,
+				CE310886225F3C0900BBD35F /* saturn.jpg */,
+				CE310885225F3C0900BBD35F /* uranus.jpg */,
+				CE310889225F3C0900BBD35F /* venus.jpg */,
 			);
 			path = Textures;
+			sourceTree = "<group>";
+		};
+		CE82F5CF225F62AE007650BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE62F044225E671700ED71D0 /* Planet.swift */,
+				CE310881225E995C00BBD35F /* PlanetNode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE82F5D0225F62CA007650BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE318922225F660300F2ABA2 /* Storyboard */,
+				CE82F5D1225F62D8007650BB /* Cells */,
+				CEF49A7D225E766A009DE9C4 /* PlanetSCNView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE82F5D1225F62D8007650BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEF49A7B225E745F009DE9C4 /* PlanetCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE82F5D2225F656B007650BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE62F009225D2FA300ED71D0 /* AppDelegate.swift */,
+				CE62F010225D2FA400ED71D0 /* Assets.xcassets */,
+				CE62F015225D2FA400ED71D0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8EE115225F622D00B3C77E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF49A79225E730C009DE9C4 /* ListViewController.swift */,
+				CE62F00B225D2FA300ED71D0 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,11 +217,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE62F01C225D374800ED71D0 /* Sphere.scn in Resources */,
+				CE310890225F3C0900BBD35F /* venus.jpg in Resources */,
 				CE62F03E225D498400ED71D0 /* earth.jpg in Resources */,
+				CE31088B225F3C0900BBD35F /* mercury.jpg in Resources */,
+				CE31088F225F3C0900BBD35F /* neptune.jpg in Resources */,
 				CE62F014225D2FA400ED71D0 /* LaunchScreen.storyboard in Resources */,
+				CE31088D225F3C0900BBD35F /* saturn.jpg in Resources */,
+				CE31088A225F3C0900BBD35F /* jupiter.jpg in Resources */,
+				CE31088E225F3C0900BBD35F /* mars.jpg in Resources */,
 				CE62F011225D2FA400ED71D0 /* Assets.xcassets in Resources */,
 				CE62F00F225D2FA300ED71D0 /* Main.storyboard in Resources */,
+				CE31088C225F3C0900BBD35F /* uranus.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +242,7 @@
 				CEF49A7E225E766A009DE9C4 /* PlanetSCNView.swift in Sources */,
 				CE62F00C225D2FA300ED71D0 /* DetailViewController.swift in Sources */,
 				CEF49A7A225E730C009DE9C4 /* ListViewController.swift in Sources */,
+				CE310882225E995C00BBD35F /* PlanetNode.swift in Sources */,
 				CE62F00A225D2FA300ED71D0 /* AppDelegate.swift in Sources */,
 				CEF49A7C225E745F009DE9C4 /* PlanetCell.swift in Sources */,
 			);
@@ -316,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NAELVG29J;
-				INFOPLIST_FILE = DZ_Space/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DZ_Space/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,7 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5NAELVG29J;
-				INFOPLIST_FILE = DZ_Space/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DZ_Space/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
